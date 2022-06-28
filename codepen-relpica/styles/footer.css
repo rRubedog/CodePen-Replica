@@ -1,0 +1,30 @@
+.footer-wrapper {
+    height: auto;
+    background-color: #5f5f5f;
+    color: white;
+    margin-top: 30px;
+}
+
+.footer-wrapper > .pro-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-wrapper > .pro-bar > .pro {
+    text-transform: uppercase;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+    padding: 5px 100px;
+    border: grey solid 2px;
+}
+
+.footer-wrapper > .pro-bar > .pro::before {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: none;
+    content: "CodePen for ";
+}
